@@ -1,0 +1,42 @@
+Q1. Basic Operations Program
+a = 10
+b = 3
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+
+
+Q2. Output Prediction & Operator Explanation
+Output:
+3.4
+3
+2
+289
+Operator Differences:
+●	/ (Division): Performs standard division and returns a float result (17 / 5 = 3.4).
+●	// (Floor Division): Divides and rounds down to the nearest whole integer (17 // 5 = 3).
+●	% (Modulus): Calculates the remainder after division (17 % 5 = 2).
+
+
+Q3. Total Price Calculation
+product_price = 250
+quantity = 4
+
+total_amount = product_price * quantity
+print("Total Amount: ₹", total_amount)
+Output: Total Amount: ₹ 1000
+
+
+Q4. Average Calculation
+num1 = 75
+num2 = 80
+num3 = 95
+
+average = (num1 + num2 + num3) / 3
+print("Average:", average)
+Output: Average: 83.3333

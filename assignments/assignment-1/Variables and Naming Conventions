@@ -1,0 +1,42 @@
+Q1. Personal Variables
+name = "Sakshi"
+age = 21
+city = "Mumbai"
+height = 5.6
+is_student = True
+
+print(name)
+print(age)
+print(city)
+print(height)
+print(is_student)
+
+
+Q2. Product & Customer Information
+product_price = 250.00
+quantity_purchased = 4
+customer_name = "Rahul Sharma"
+
+print(product_price)
+print(quantity_purchased)
+print(customer_name)
+
+
+Q3. Output Prediction & Explanation
+Output:
+25
+10
+Explanation:
+In Python, assignment copies values, not references to primitive types like integers. When y = x is executed, y receives the current value of x (10). Reassigning x = 25 later changes x to 25 without affecting y.
+
+
+Q4. Variable Name Validation
+●	student_name = "Ravi" — Valid
+●	2nd_subject = "Python" — Invalid (Starts with a digit) 
+●	Correction: second_subject = "Python" or subject_2 = "Python"
+●	total_marks = 450 — Valid
+●	student-name = "Amit" — Invalid (Contains a hyphen -) 
+●	Correction: student_name = "Amit"
+●	_my_age = 21 — Valid
+●	class = "Python" — Invalid (class is a reserved keyword in Python) 
+●	Correction:  class_name = "Python"

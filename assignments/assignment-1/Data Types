@@ -1,0 +1,25 @@
+Q1. Data Types Demonstration
+my_int = 10
+my_float = 3.14
+my_str = "Hello"
+my_bool = True
+
+print(my_int, type(my_int))
+print(my_float, type(my_float))
+print(my_str, type(my_str))
+print(my_bool, type(my_bool))
+
+
+Q2. Output Prediction
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+Q3. Value vs. String Comparison
+a = 25
+b = "25"
+
+print(type(a))  # <class 'int'>
+print(type(b))  # <class 'str'>
+Explanation:
+a is an integer (int), representing a numerical value that can be used in arithmetic operations. b is a string (str), representing a text sequence enclosed in quotes.
